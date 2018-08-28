@@ -1,0 +1,470 @@
+.carousel-cell {
+  width: 66%;
+}
+
+.carousel-cell img {
+  display: block;
+  position: absolute;
+  width: 100%;
+	height: 100%;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.cell__wrap {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.cell__inner {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.cell__title {
+  font-size: 73pt;
+  position: absolute;
+  z-index: 1;
+  top: 60%;
+  left: 10%;
+  margin: 0;
+  -webkit-text-stroke: 1px #fafafa;
+  text-stroke: 1px #fafafa;
+  transition: all 0.5s cubic-bezier(0.7, 0.18, 0.15, 1);
+  -webkit-transform: translateY(-50%) translateX(-20%);
+          transform: translateY(-50%) translateX(-20%);
+}
+
+.cell__title:hover{
+  -webkit-text-stroke: 1px #fafafa;
+  text-stroke: 1px #fafafa;
+  transition: all 0.5s cubic-bezier(0.7, 0.18, 0.15, 1);
+  color: rgb(0,0,0,0);
+  cursor: pointer;
+}
+
+.section{
+    text-transform: uppercase;
+	font-family: 'Avenir Next', sans-serif;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 8pt;
+	position: absolute;
+  	z-index: 1;
+  	top: 43%;
+   	margin: 0;
+}
+
+.nav{
+   width: 80%;
+   top:0;
+   margin-top: 3%;
+   position: absolute;
+}
+
+.footer{
+   width: 80%;
+   bottom:0;
+   margin-bottom:3%;
+   position: absolute;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+	font-family: 'Avenir Next', sans-serif;
+    float: left;
+	font-size: 8pt;
+}
+
+li a {
+	opacity: 0.5;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	opacity: 1;
+}
+
+.active {
+	opacity: 1;
+}
+
+
+.text-split {
+  overflow: hidden;
+  display: inline-block;
+}
+.text-split.whitespace {
+  display: initial;
+}
+.text-split:nth-child(1) .text-split__inner {
+  transition-delay: 0.02s;
+}
+.text-split:nth-child(2) .text-split__inner {
+  transition-delay: 0.04s;
+}
+.text-split:nth-child(3) .text-split__inner {
+  transition-delay: 0.06s;
+}
+.text-split:nth-child(4) .text-split__inner {
+  transition-delay: 0.08s;
+}
+.text-split:nth-child(5) .text-split__inner {
+  transition-delay: 0.1s;
+}
+.text-split:nth-child(6) .text-split__inner {
+  transition-delay: 0.12s;
+}
+.text-split:nth-child(7) .text-split__inner {
+  transition-delay: 0.14s;
+}
+.text-split:nth-child(8) .text-split__inner {
+  transition-delay: 0.16s;
+}
+.text-split:nth-child(9) .text-split__inner {
+  transition-delay: 0.18s;
+}
+.text-split:nth-child(10) .text-split__inner {
+  transition-delay: 0.2s;
+}
+.text-split:nth-child(11) .text-split__inner {
+  transition-delay: 0.22s;
+}
+.text-split:nth-child(12) .text-split__inner {
+  transition-delay: 0.24s;
+}
+.text-split:nth-child(13) .text-split__inner {
+  transition-delay: 0.26s;
+}
+.text-split:nth-child(14) .text-split__inner {
+  transition-delay: 0.28s;
+}
+.text-split:nth-child(15) .text-split__inner {
+  transition-delay: 0.3s;
+}
+.text-split:nth-child(16) .text-split__inner {
+  transition-delay: 0.32s;
+}
+.text-split:nth-child(17) .text-split__inner {
+  transition-delay: 0.34s;
+}
+.text-split:nth-child(18) .text-split__inner {
+  transition-delay: 0.36s;
+}
+.text-split:nth-child(19) .text-split__inner {
+  transition-delay: 0.38s;
+}
+.text-split:nth-child(20) .text-split__inner {
+  transition-delay: 0.4s;
+}
+.text-split:nth-child(21) .text-split__inner {
+  transition-delay: 0.42s;
+}
+.text-split:nth-child(22) .text-split__inner {
+  transition-delay: 0.44s;
+}
+.text-split:nth-child(23) .text-split__inner {
+  transition-delay: 0.46s;
+}
+.text-split:nth-child(24) .text-split__inner {
+  transition-delay: 0.48s;
+}
+.text-split:nth-child(25) .text-split__inner {
+  transition-delay: 0.5s;
+}
+.text-split:nth-child(26) .text-split__inner {
+  transition-delay: 0.52s;
+}
+.text-split:nth-child(27) .text-split__inner {
+  transition-delay: 0.54s;
+}
+.text-split:nth-child(28) .text-split__inner {
+  transition-delay: 0.56s;
+}
+.text-split:nth-child(29) .text-split__inner {
+  transition-delay: 0.58s;
+}
+.text-split:nth-child(30) .text-split__inner {
+  transition-delay: 0.6s;
+}
+.text-split:nth-child(31) .text-split__inner {
+  transition-delay: 0.62s;
+}
+.text-split:nth-child(32) .text-split__inner {
+  transition-delay: 0.64s;
+}
+.text-split:nth-child(33) .text-split__inner {
+  transition-delay: 0.66s;
+}
+.text-split:nth-child(34) .text-split__inner {
+  transition-delay: 0.68s;
+}
+.text-split:nth-child(35) .text-split__inner {
+  transition-delay: 0.7s;
+}
+.text-split:nth-child(36) .text-split__inner {
+  transition-delay: 0.72s;
+}
+.text-split:nth-child(37) .text-split__inner {
+  transition-delay: 0.74s;
+}
+.text-split:nth-child(38) .text-split__inner {
+  transition-delay: 0.76s;
+}
+.text-split:nth-child(39) .text-split__inner {
+  transition-delay: 0.78s;
+}
+.text-split:nth-child(40) .text-split__inner {
+  transition-delay: 0.8s;
+}
+.text-split:nth-child(41) .text-split__inner {
+  transition-delay: 0.82s;
+}
+.text-split:nth-child(42) .text-split__inner {
+  transition-delay: 0.84s;
+}
+.text-split:nth-child(43) .text-split__inner {
+  transition-delay: 0.86s;
+}
+.text-split:nth-child(44) .text-split__inner {
+  transition-delay: 0.88s;
+}
+.text-split:nth-child(45) .text-split__inner {
+  transition-delay: 0.9s;
+}
+.text-split:nth-child(46) .text-split__inner {
+  transition-delay: 0.92s;
+}
+.text-split:nth-child(47) .text-split__inner {
+  transition-delay: 0.94s;
+}
+.text-split:nth-child(48) .text-split__inner {
+  transition-delay: 0.96s;
+}
+.text-split:nth-child(49) .text-split__inner {
+  transition-delay: 0.98s;
+}
+.text-split:nth-child(50) .text-split__inner {
+  transition-delay: 1s;
+}
+.text-split:nth-child(51) .text-split__inner {
+  transition-delay: 1.02s;
+}
+.text-split:nth-child(52) .text-split__inner {
+  transition-delay: 1.04s;
+}
+.text-split:nth-child(53) .text-split__inner {
+  transition-delay: 1.06s;
+}
+.text-split:nth-child(54) .text-split__inner {
+  transition-delay: 1.08s;
+}
+.text-split:nth-child(55) .text-split__inner {
+  transition-delay: 1.1s;
+}
+.text-split:nth-child(56) .text-split__inner {
+  transition-delay: 1.12s;
+}
+.text-split:nth-child(57) .text-split__inner {
+  transition-delay: 1.14s;
+}
+.text-split:nth-child(58) .text-split__inner {
+  transition-delay: 1.16s;
+}
+.text-split:nth-child(59) .text-split__inner {
+  transition-delay: 1.18s;
+}
+.text-split:nth-child(60) .text-split__inner {
+  transition-delay: 1.2s;
+}
+.text-split:nth-child(61) .text-split__inner {
+  transition-delay: 1.22s;
+}
+.text-split:nth-child(62) .text-split__inner {
+  transition-delay: 1.24s;
+}
+.text-split:nth-child(63) .text-split__inner {
+  transition-delay: 1.26s;
+}
+.text-split:nth-child(64) .text-split__inner {
+  transition-delay: 1.28s;
+}
+.text-split:nth-child(65) .text-split__inner {
+  transition-delay: 1.3s;
+}
+.text-split:nth-child(66) .text-split__inner {
+  transition-delay: 1.32s;
+}
+.text-split:nth-child(67) .text-split__inner {
+  transition-delay: 1.34s;
+}
+.text-split:nth-child(68) .text-split__inner {
+  transition-delay: 1.36s;
+}
+.text-split:nth-child(69) .text-split__inner {
+  transition-delay: 1.38s;
+}
+.text-split:nth-child(70) .text-split__inner {
+  transition-delay: 1.4s;
+}
+.text-split:nth-child(71) .text-split__inner {
+  transition-delay: 1.42s;
+}
+.text-split:nth-child(72) .text-split__inner {
+  transition-delay: 1.44s;
+}
+.text-split:nth-child(73) .text-split__inner {
+  transition-delay: 1.46s;
+}
+.text-split:nth-child(74) .text-split__inner {
+  transition-delay: 1.48s;
+}
+.text-split:nth-child(75) .text-split__inner {
+  transition-delay: 1.5s;
+}
+.text-split:nth-child(76) .text-split__inner {
+  transition-delay: 1.52s;
+}
+.text-split:nth-child(77) .text-split__inner {
+  transition-delay: 1.54s;
+}
+.text-split:nth-child(78) .text-split__inner {
+  transition-delay: 1.56s;
+}
+.text-split:nth-child(79) .text-split__inner {
+  transition-delay: 1.58s;
+}
+.text-split:nth-child(80) .text-split__inner {
+  transition-delay: 1.6s;
+}
+.text-split:nth-child(81) .text-split__inner {
+  transition-delay: 1.62s;
+}
+.text-split:nth-child(82) .text-split__inner {
+  transition-delay: 1.64s;
+}
+.text-split:nth-child(83) .text-split__inner {
+  transition-delay: 1.66s;
+}
+.text-split:nth-child(84) .text-split__inner {
+  transition-delay: 1.68s;
+}
+.text-split:nth-child(85) .text-split__inner {
+  transition-delay: 1.7s;
+}
+.text-split:nth-child(86) .text-split__inner {
+  transition-delay: 1.72s;
+}
+.text-split:nth-child(87) .text-split__inner {
+  transition-delay: 1.74s;
+}
+.text-split:nth-child(88) .text-split__inner {
+  transition-delay: 1.76s;
+}
+.text-split:nth-child(89) .text-split__inner {
+  transition-delay: 1.78s;
+}
+.text-split:nth-child(90) .text-split__inner {
+  transition-delay: 1.8s;
+}
+.text-split:nth-child(91) .text-split__inner {
+  transition-delay: 1.82s;
+}
+.text-split:nth-child(92) .text-split__inner {
+  transition-delay: 1.84s;
+}
+.text-split:nth-child(93) .text-split__inner {
+  transition-delay: 1.86s;
+}
+.text-split:nth-child(94) .text-split__inner {
+  transition-delay: 1.88s;
+}
+.text-split:nth-child(95) .text-split__inner {
+  transition-delay: 1.9s;
+}
+.text-split:nth-child(96) .text-split__inner {
+  transition-delay: 1.92s;
+}
+.text-split:nth-child(97) .text-split__inner {
+  transition-delay: 1.94s;
+}
+.text-split:nth-child(98) .text-split__inner {
+  transition-delay: 1.96s;
+}
+.text-split:nth-child(99) .text-split__inner {
+  transition-delay: 1.98s;
+}
+.text-split:nth-child(100) .text-split__inner {
+  transition-delay: 2s;
+}
+
+.text-split__inner {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  display: inline-block;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.is-selected .text-split__inner {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.text-split__inner.whitespace {
+  display: initial;
+}
+
+.cell__thumb {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Bajern', serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: #141414;
+  color: #FFF;
+}
+
+.container {
+  width: 100%;
+}

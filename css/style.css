@@ -488,6 +488,7 @@ body {
 }
 
 .case .container{
+	overflow: hidden;
 	width: 100%;
  }
 

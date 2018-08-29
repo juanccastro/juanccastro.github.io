@@ -483,7 +483,7 @@ body {
 
 .case{
 	display: block;
-	background-color: #e5e5e5;
+	background-color: #fafafa;
     color: #141414;
 }
 
@@ -499,23 +499,21 @@ body {
 }
  
 .case-title{
-  margin-top: 20%;
+  margin-top: 15%;
   width: 200%;
-  font:  10vw 'Bajern', serif;
+  font:  13vw 'Bajern', serif;
    user-select: none;
 }
 
 .wrap{
-	margin: 8% auto;
+	margin: 10% auto;
 	height: 100%;
 	width: 100%;
 }
 
 .wrap-text{
-	margin-top: 5%;
-	margin-bottom: 10%;
-		margin-left: 10%;
-	width: 40%;
+ 	margin-left: 10%;
+	width: 70%;
 	display:block;
  }
 
@@ -525,22 +523,43 @@ body {
 	font-weight: bold;
 	letter-spacing: 3px;
 	font-size: 8pt;
+	margin-top: 10%;
 }
 
 .text-description{
  	font-family: 'Avenir Next', sans-serif;
 	font-size: 12pt;
+	line-height: 1.875;
 }
 
 .media{
- 	width: 80%;
-	vertical-align: middle;
-	margin: 8% auto;
+  	width: 70%;
+	height: 600px;
+ 	margin: 8% auto;
+	align-items: center;
+	background-color: lightgray;
 }
 
 .media img{
+	display: block;
+    width: 80%;
+	margin: 0 auto;
+}
+
+.media video{
 	width: 70%;
 	display: block;
 	margin: auto;
-    }
+}
+
+footer{
+	width: 70%;
+  	margin: 15% auto;
+	margin-bottom: 20%;
+}
+
+footer .next{
+	height: auto;
+	 font:  13vw 'Bajern', serif;
+}
 

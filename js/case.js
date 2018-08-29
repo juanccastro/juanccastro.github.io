@@ -4,3 +4,14 @@ $(window).scroll(function () {
   		var srotate = "translateX(-" + newSize + "px)";
   		$('.case-title').css({left:newSize,"-moz-transform" : srotate, "-webkit-transform" : srotate});
 });
+
+$("footer").mouseover(function() {
+        $( ".next" ).addClass("is-selected");
+        $( ".next-name" ).removeClass("is-selected-footer");
+ });
+
+$("footer").mouseout(function() {
+         $( ".next" ).removeClass("is-selected");
+	        $( ".next-name" ).addClass("is-selected-footer");
+
+});

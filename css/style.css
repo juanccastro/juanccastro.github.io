@@ -427,13 +427,13 @@ li a:hover:not(.active) {
   transition-delay: 2s;
 }
 
-.text-split__inner {
+.text-split__inner{
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
   display: inline-block;
-  transition: -webkit-transform 0.3s ease;
-  transition: transform 0.3s ease;
-  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
 }
 .is-selected .text-split__inner {
   -webkit-transform: translateY(0);
@@ -442,6 +442,17 @@ li a:hover:not(.active) {
 .text-split__inner.whitespace {
   display: initial;
 }
+
+.is-selected-footer .text-split__inner {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+footer .is-selected .text-split__inner {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
 
 .cell__thumb {
   position: absolute;
@@ -509,12 +520,12 @@ body {
 .wrap{
 	margin: 10% auto;
 	height: 100%;
-	width: 100%;
+	width: 70%;
 }
 
 .wrap-text{
  	margin-left: 10%;
-	width: 70%;
+	width: 80%;
 	display:block;
  }
 
@@ -535,11 +546,9 @@ body {
 
 .media{
   	width: 70%;
-	height: 600px;
- 	margin: 8% auto;
+  	margin: 8% auto;
 	align-items: center;
-	background-color: lightgray;
-}
+ }
 
 .media img{
 	display: block;
@@ -548,19 +557,44 @@ body {
 }
 
 .media video{
-	width: 70%;
+	width: 80%;
 	display: block;
 	margin: auto;
 }
 
 footer{
-	width: 70%;
+	overflow: hidden;
+ 	width: 70%;
   	margin: 15% auto;
 	margin-bottom: 20%;
 }
 
 footer .next{
+	position: absolute;
 	height: auto;
-	 font:  13vw 'Bajern', serif;
+	font:  13vw 'Bajern', serif;
 }
 
+footer .next-name{
+    position: absolute;
+	height: auto;
+	font:  13vw 'Bajern', serif;
+}
+
+footer .number{
+	text-transform: uppercase;
+	font-family: 'Avenir Next', sans-serif;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 14pt;
+}
+
+
+footer .text-split__inner {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+  display: inline-block;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}

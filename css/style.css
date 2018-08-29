@@ -509,6 +509,10 @@ body {
 	width: 70%;
 	height: 100%;
 }
+
+.divider, .divider img{
+	width: 100%;
+}
  
 .case-title{
   margin-top: 15%;
@@ -518,9 +522,11 @@ body {
 }
 
 .wrap{
-	margin: 10% auto;
+	margin: 0% auto;
 	height: 100%;
 	width: 70%;
+	margin-top: 10%;
+	margin-bottom:10%;
 }
 
 .wrap-text{
@@ -546,8 +552,9 @@ body {
 
 .media{
   	width: 70%;
-  	margin: 8% auto;
+  	margin: 0% auto;
 	align-items: center;
+	margin-bottom: 8%;
  }
 
 .media img{

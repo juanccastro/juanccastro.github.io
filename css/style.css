@@ -25,7 +25,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
 }
 
 .cell__wrap {
@@ -82,6 +81,7 @@ a{
  }
 
 .nav{
+	z-index: 2;
    margin: 0 auto;
    width: 80%;
    top:0;
@@ -549,7 +549,6 @@ body {
 	background-color: #f1f1f1;
     color: #141414;
 }
-
 
 .case .container{
 	overflow: hidden;

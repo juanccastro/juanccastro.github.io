@@ -491,6 +491,41 @@ body {
 }
 
 
+/*				INFO CSS				*/
+
+
+
+.info{
+	margin-top: 25%;
+	display: block;
+}
+
+.divider-info{
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+}
+
+.divider-info img{
+	width: 75%;
+	position: absolute;
+}
+
+.wrap-info{
+  	width: 30%;
+	display:inline-block;
+ }
+
+
+.info .text-description {
+ 	font-family: 'Avenir Next', sans-serif;
+	font-size: 10pt;
+	line-height: 1.875;
+}
+
+
+
+
 /*				CASE CSS				*/
 
 .case{
@@ -498,6 +533,7 @@ body {
 	background-color: #f1f1f1;
     color: #141414;
 }
+
 
 .case .container{
 	overflow: hidden;
@@ -544,7 +580,7 @@ body {
 	margin-top: 10%;
 }
 
-.text-description{
+.text-description {
  	font-family: 'Avenir Next', sans-serif;
 	font-size: 12pt;
 	line-height: 1.875;

@@ -526,20 +526,26 @@ body {
   	width: 30%;
 	display:inline-block;
  }
-
+ 
 
 .info .text-description {
  	font-family: 'Avenir Next', sans-serif;
 	font-size: 9pt;
 	line-height: 1.875;
-}
+ }
 
 
 .svg{
 	position: absolute;
 	margin-left: 68%;
 	margin-top: -10%;
+	-webkit-animation:spin 20s linear infinite;
+    -moz-animation:spin 20s linear infinite;
+    animation:spin 20s linear infinite;
 }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 
 /*				CASE CSS				*/
@@ -584,9 +590,9 @@ body {
 }
 
 .info .wrap{
-	margin-top: 5%;
+ 	margin-top: 5%;
 	margin-bottom:5%;
-}
+  }
 
 .wrap-text{
  	margin-left: 10%;
@@ -595,7 +601,8 @@ body {
  }
 
 .text-title{
-	text-transform: uppercase;
+	vertical-align: top; /* here */
+ 	text-transform: uppercase;
 	font-family: 'Avenir Next', sans-serif;
 	font-weight: bold;
 	letter-spacing: 3px;

@@ -569,7 +569,10 @@ body {
 .case-title{
   margin-top: 15%;
   width: 200%;
-  font:  13vw 'Bajern', serif;
+  font-size:  13vw;
+	font-family: 'Bajern'; 
+	font-weight: normal; 
+	font-style: normal;
    user-select: none;
 }
 

@@ -7,6 +7,22 @@
     font-style: normal;
 }
 
+.flickity-page-dots {
+   margin-bottom:-5%;
+   margin-left: 10%;
+   width: auto;
+}
+/* white circles */
+.flickity-page-dots .dot {
+  opacity: 1;
+  background: transparent;
+  border: 1px solid white;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}
+
 .carousel-cell {
   width: 66%;
 }
@@ -15,7 +31,7 @@
   display: block;
   position: absolute;
   width: 100%;
-	height: 100%;
+  height: 100%;
   z-index: 0;
   top: 0;
   right: 0;
@@ -49,7 +65,8 @@
   margin: 0;
   -webkit-text-stroke: 1px #e5e5e5;
   text-stroke: 1px #e5e5e5;
-  transition: all 0.5s cubic-bezier(0.7, 0.18, 0.15, 1);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   -webkit-transform: translateY(-50%) translateX(-20%);
           transform: translateY(-50%) translateX(-20%);
 }
@@ -62,7 +79,8 @@ a{
 .cell__title:hover{
   -webkit-text-stroke: 1px #e5e5e5;
   text-stroke: 1px #e5e5e5;
-  transition: all 0.5s cubic-bezier(0.7, 0.18, 0.15, 1);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   color: rgb(0,0,0,0);
   cursor: pointer;
 }

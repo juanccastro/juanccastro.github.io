@@ -3,7 +3,7 @@ var $carousel = $('.js-carousel');
 
 $carousel.flickity({
   prevNextButtons: false,
-  pageDots: false,
+  pageDots: true,
   imagesLoaded: true,
   percentPosition: false
 });

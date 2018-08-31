@@ -534,6 +534,9 @@ body {
 	line-height: 1.875;
  }
 
+.marginD{
+	margin-left: 20%;
+}
 
 .svg{
 	position: absolute;
@@ -546,6 +549,54 @@ body {
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+.c-btn {
+   text-decoration: none;
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  height: 100%;
+}
+.c-btn:after {
+  content: '';
+  display: block;
+  position: absolute;
+}
+.c-btn:before {
+  content: '';
+  display: block;
+  position: absolute;
+}
+
+/*   Hover Line   */
+.c-btn--line:after {
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #FFF;
+  -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: -webkit-transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: transform 0.6s cubic-bezier(0.55, 0, 0.1, 1), -webkit-transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+}
+.c-btn--line:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: -webkit-transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: transform 0.6s cubic-bezier(0.55, 0, 0.1, 1), -webkit-transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+
 
 
 /*				CASE CSS				*/

@@ -8,6 +8,7 @@
 }
 
 .flickity-page-dots {
+	z-index: 2;
    margin-bottom:-5%;
    margin-left: 10%;
    width: auto;

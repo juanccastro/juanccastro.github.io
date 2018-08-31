@@ -16,6 +16,8 @@
 /* white circles */
 .flickity-page-dots .dot {
   opacity: 1;
+  width: 7px;
+	height: 7px;
   background: transparent;
   border: 1px solid white;
 }
@@ -88,7 +90,7 @@ a{
 
 .section{
     text-transform: uppercase;
-	font-family: 'Avenir Next', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	letter-spacing: 3px;
 	font-size: 8pt;
@@ -124,7 +126,7 @@ ul {
 }
 
 li {
-	font-family: 'Avenir Next', sans-serif;
+	font-family: 'Open Sans', sans-serif;
     float: left;
 	font-size: 8pt;
 }
@@ -548,7 +550,7 @@ body {
  
 
 .info .text-description {
- 	font-family: 'Avenir Next', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 9pt;
 	line-height: 1.875;
  }
@@ -616,33 +618,32 @@ body {
 }
 
 
-
-
 /*				CASE CSS				*/
 
-.case{
+
+.case {
 	display: block;
 	background-color: #f1f1f1;
     color: #141414;
 }
 
-.case .container{
+.case .container {
 	overflow: hidden;
 	width: 100%;
 	margin-bottom: 15%;
  }
 
-.case-container{
+.case-container {
 	margin: 0 auto;
 	width: 70%;
 	height: 100%;
 }
 
-.divider, .divider img{
+.divider, .divider img {
 	width: 100%;
 }
  
-.case-title{
+.case-title {
   margin-top: 15%;
   width: 200%;
   font-size:  13vw;
@@ -652,7 +653,7 @@ body {
    user-select: none;
 }
 
-.wrap{
+.wrap {
 	margin: 0% auto;
 	height: 100%;
 	width: 70%;
@@ -660,29 +661,29 @@ body {
 	margin-bottom:10%;
 }
 
-.info .wrap{
+.info .wrap {
  	margin-top: 5%;
 	margin-bottom:5%;
   }
 
-.wrap-text{
+.wrap-text {
  	margin-left: 10%;
 	width: 80%;
 	display:block;
  }
 
-.text-title{
+.text-title {
 	vertical-align: top; /* here */
  	text-transform: uppercase;
-	font-family: 'Avenir Next', sans-serif;
-	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	letter-spacing: 3px;
 	font-size: 8pt;
 	margin-top: 10%;
 }
 
 .text-description {
- 	font-family: 'Avenir Next', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
 	line-height: 1.875;
 }
@@ -727,8 +728,8 @@ footer .next-name{
 
 footer .number{
 	text-transform: uppercase;
-	font-family: 'Avenir Next', sans-serif;
-	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 	letter-spacing: 3px;
 	font-size: 14pt;
 }

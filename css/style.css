@@ -90,8 +90,8 @@ a{
 
 .section{
     text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 	letter-spacing: 3px;
 	font-size: 8pt;
 	position: absolute;
@@ -103,13 +103,13 @@ a{
 
 .nav{
 	font-family: 'Open Sans', sans-serif;
-   z-index: 2;
-   margin: 0 auto;
-   width: 80%;
-   top:0;
+	z-index: 2;
+	margin: 0 auto;
+	width: 80%;
+	top:0;
 	left:0;
 	right: 0;
-   margin-top: 3%;
+	margin-top: 3%;
 	position: fixed;
  }
 
@@ -676,8 +676,8 @@ body {
 .text-title {
 	vertical-align: top; /* here */
  	text-transform: uppercase;
-font-family: 'Roboto', sans-serif;
-	font-weight: 900;
+font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 	letter-spacing: 3px;
 	font-size: 8pt;
 	margin-top: 10%;
@@ -729,8 +729,8 @@ footer .next-name{
 
 footer .number{
 	text-transform: uppercase;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 	letter-spacing: 3px;
 	font-size: 14pt;
 }

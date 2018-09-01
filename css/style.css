@@ -1,3 +1,11 @@
+*{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
 @font-face {
     font-family: 'Bajern';
     src: local('Bajern Regular'), local('Bajern-Regular'),
@@ -139,10 +147,12 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+	transition: 0.5s ease;
 }
 
 li a:hover:not(.active) {
 	opacity: 1;
+	transition: 0.5s ease;
 }
 
 .active {
@@ -507,6 +517,7 @@ body {
   font-family: 'Bajern'; 
   font-weight: normal; 
   font-style: normal;
+user-select: none;
 }
 
 body {

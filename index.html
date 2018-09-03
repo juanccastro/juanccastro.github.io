@@ -49,7 +49,15 @@
   
 </head>
 
-<body>
+<body class="animate-in">
+	
+	<div class="preloader-wrap">
+  		<div class="loader">
+  		  <div class="trackbar">
+  		    <div class="loadbar"></div>
+  		  </div>
+   		</div>
+	 </div>
 	
 	<div class="nav">
 		<ul>
@@ -133,7 +141,13 @@
   
 
     <script  src="js/index.js"></script>
+	<script  src="js/loader.js"></script>
 
+	<script>
+		window.addEventListener("beforeunload", function () {
+			document.body.classList.add("animate-out");
+		});
+	</script>
 
 
 

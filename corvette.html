@@ -50,6 +50,14 @@
 
 <body class="case">
 	
+	<div class="preloader-wrap">
+  		<div class="loader">
+  		  <div class="trackbar">
+  		    <div class="loadbar"></div>
+  		  </div>
+   		</div>
+	 </div>
+	
 	<div class="nav">
 		<ul>
   			<li><a style="color:#141414;" href="index.html">work</a></li>
@@ -130,7 +138,13 @@
 
     <script  src="js/index.js"></script>
     <script  src="js/case.js"></script>
+<script  src="js/loader.js"></script>
 
+	<script>
+		window.addEventListener("beforeunload", function () {
+			document.body.classList.add("animate-out");
+		});
+	</script>
 
 
 

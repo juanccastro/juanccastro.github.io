@@ -658,9 +658,11 @@ body {
 }
 
 .case .container {
+	
 	overflow: hidden;
 	width: 100%;
 	margin-bottom: 15%;
+	
  }
 
 .case-container {
@@ -786,7 +788,7 @@ footer .text-split__inner {
   background-color: rgba(13,13,13);
   z-index : 5; 
   transition: all 2s ease !important;
-	cursor: wait;
+  cursor:wait;
 }
 
 .percentage {

@@ -37,6 +37,7 @@ function animateValue(id, start, end, duration) {
 setTimeout(function(){
 
   $('.preloader-wrap').css("opacity", "0");
-  $('.preloader-wrap').css("z-index", "-2");
+  $('.preloader-wrap').css("cursor", "auto");
+  $('.preloader-wrap').css("z-index", "-3");
 
 }, time);

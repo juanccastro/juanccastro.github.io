@@ -38,18 +38,26 @@ user-select: none;
    margin-bottom:-5%;
    margin-left: 10%;
    width: auto;
+	transition: 0.5s ease;
 }
 /* white circles */
 .flickity-page-dots .dot {
   opacity: 1;
   width: 7px;
-	height: 7px;
+  height: 7px;
   background: transparent;
   border: 1px solid white;
+  transition: 0.5s ease;
+}
+
+.flickity-page-dots .dot:hover {
+  background: white;
+  transition: 0.5s ease;
 }
 /* fill-in selected dot */
 .flickity-page-dots .dot.is-selected {
   background: white;
+  transition: 0.5s ease;
 }
 
 .carousel-cell {
@@ -156,6 +164,8 @@ li {
 	font-family: 'Open Sans', sans-serif;
     float: left;
 	font-size: 8pt;
+	display: inline-block;
+	width: auto;
 }
 
 li a {
@@ -623,10 +633,10 @@ body {
 .svg{
 	position: absolute;
 	margin-left: 68%;
-	margin-top: -10%;
-	-webkit-animation:spin 40s linear infinite;
-    -moz-animation:spin 40s linear infinite;
-    animation:spin 40s linear infinite;
+	margin-top: -30%;
+	-webkit-animation:spin 100s linear infinite;
+    -moz-animation:spin 100s linear infinite;
+    animation:spin 100s linear infinite;
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }

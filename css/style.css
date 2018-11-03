@@ -575,7 +575,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0;
-  background-color: #080e11;
+  background-color: black;
   color: #e5e5e5;
 }
 
@@ -601,6 +601,15 @@ body {
 
 .divider-info img{
 	width: 75%;
+}
+
+.logo-info img{
+	position: absolute;
+	width: 30%;
+	right: 0;
+	margin-top: -15%;
+	margin-right: 10%;
+	z-index:-1;
 }
 
 .wrap-info{

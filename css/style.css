@@ -192,7 +192,7 @@ li {
 }
 
 .nav ul li:nth-child(1){
- 	font-weight: 600;
+/* 	font-weight: 600;*/
 }
 
 li a {

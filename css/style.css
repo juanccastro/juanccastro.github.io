@@ -805,8 +805,8 @@ body {
 }
 
 .info .wrap {
- 	margin-top: 4%;
-	margin-bottom:4%;
+ 	margin-top: 2%;
+	margin-bottom:2% !important;
   }
 
 .wrap-text {
@@ -816,9 +816,10 @@ body {
  }
 
 .text-title {
+	
 	vertical-align: top; /* here */
  	text-transform: uppercase;
-font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	letter-spacing: 3px;
 	font-size: 8pt;
@@ -827,7 +828,7 @@ font-family: 'Montserrat', sans-serif;
 
 .text-description {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 12pt;
+	font-size: 10pt;
 	line-height: 1.875;
 }
 

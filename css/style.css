@@ -597,6 +597,10 @@ body {
 	display: block;
  }
 
+.info .case-container {
+	margin-bottom: 5%;
+}
+
 .divider-info{
  	width: 100%;
 	display: block;
@@ -624,8 +628,7 @@ body {
 .wrap-bio{
   	width: 65%;
 	display:inline-block;
-	margin-bottom: 5%;
- }
+  }
 
 
 .info .text-description {

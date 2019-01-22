@@ -63,14 +63,10 @@
   width: 100%;
   height: 100%;
   z-index: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   opacity: 0.6;
-  background-size: cover;
+  /*background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
 }
 
 .cell__wrap {
@@ -116,40 +112,58 @@ a{
 }
 
 @media screen and (max-width: 992px) {
-  
-		
+	
+	.container{
+		overflow: hidden;
+	}
+	
+.carousel{		
+	width: 100%;
+	height: 100vh;	
+}
+	
 .carousel-cell {
    width: 100%;
-  height: 100%; /* height of carousel */
+   height: 100vh; /* height of carousel */
 }
 	
-.carousel-cell img {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0.6;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-	
+
 .cell__wrap {
-	width: 100%;
-	height: 100%;
-	margin-top: 0;
-  }
+  	width: 100%;
+ 	height: 100%;
+  	margin: 0 auto;
+	overflow: hidden;
+}
 	
 .cell__inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 0%;
+	top: 0;
+    position: relative;
+    width: 100%;
+	height: 100%;
+    padding-top: 0%;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+  	background-repeat: no-repeat;
+	background-image: url(../imgs/bg-cc.png);
+	opacity: 0.6;
+}	
+	.cali{
+		background-image: url(../imgs/bg-cc.png);
+	}
+	.ais{
+		background-image: url(../imgs/monarch_featured.jpg);
+	}
+	.corvette{
+		background-image: url(../imgs/corvette/corvette_v2.png);	
+	}
+	.orleans{
+		background-image: url(../imgs/bg-project-4.png);
+	}
+	
+.cell__inner img{
+		width: 100%;
+	display: none;
 }
 	
 .cell__title {
@@ -160,31 +174,34 @@ a{
   left: 25%;
   margin: 0;
 }
-	
+.section{
+    text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	letter-spacing: 3px;
+	font-size: 12pt;
+	position: relative;
+  	z-index: 1;
+   	left: 25%;
+    margin: 0;
+ }
+.flickity-page-dots {
+	position: absolute;
+	z-index: 2;
+    margin-bottom:15%;
+    margin-left: 10%;
+    width: auto;
+	transition: 0.5s ease;
+	bottom: 0;
 }
+
+.footer{
+	display: none;
+}
+	
+}/* max-width:992 end */
  
 
-
-@media screen and (max-width: 600px) {
- 	 
-	
-.carousel-cell {
-   width: 100%;
-  height: 1000px; /* height of carousel */
-
-}
-.cell__wrap {
-	width: 100%;
-  }
-
-
-.cell__inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-}
 
 .section{
     text-transform: uppercase;

@@ -694,16 +694,25 @@ body {
 .wrap-bio{
   	width: 65%;
 	display:inline-block;
-  }
+   }
 
 
 .info .text-description {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.875;
-	font-size: 9pt;
+	font-size: 12pt;
 	font-weight: 300;
 
  }
+
+
+.wrap-bio .text-description {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.875;
+	font-size: 15pt !important;
+ }
+
+
 
 .marginD{
 	margin-left: 20%;

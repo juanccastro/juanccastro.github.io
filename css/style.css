@@ -208,7 +208,7 @@ a{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	letter-spacing: 3px;
-	font-size: 8pt;
+	font-size: 10pt;
 	position: absolute;
   	z-index: 1;
   	top: 43%;
@@ -252,7 +252,7 @@ ul {
 li {
 	font-family: 'Open Sans', sans-serif;
     float: left;
-	font-size: 8pt;
+	font-size: 11pt;
 	display: inline-block;
 	width: auto;
 }
@@ -694,16 +694,25 @@ body {
 .wrap-bio{
   	width: 65%;
 	display:inline-block;
-  }
+   }
 
 
 .info .text-description {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.875;
-	font-size: 9pt;
+	font-size: 12pt;
 	font-weight: 300;
 
  }
+
+
+.wrap-bio .text-description {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.875;
+	font-size: 15pt !important;
+ }
+
+
 
 .marginD{
 	margin-left: 20%;
@@ -891,14 +900,15 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	letter-spacing: 3px;
-	font-size: 8pt;
+	font-size: 9pt;
 	margin-top: 10%;
 }
 
 .text-description {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 10pt;
+	font-size: 13pt;
 	line-height: 1.875;
+    margin-top: 5%;
 }
 
 .media {
